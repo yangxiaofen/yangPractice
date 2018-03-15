@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>simulateCDM</title>
+    <!-- Bootstrap -->
+    <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap-theme.min.css">-->
+    <link href="css/cdm.css" type="text/css" rel="stylesheet" charset="utf-8">
+</head>
+<body>
+<!--导航-->
+    <nav class="navbar navbar-static-top i-nav-background-color " >
+        <div class="row">
+            <div class="navbar-header">
+                <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#slider_sub">-->
+                    <!--<span class="sr-only"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                <!--</button>-->
+                <!--<a href="#" class="navbar-brand">simulate协同放行排序</a>-->
+                <span class="i-nav-title">协同放行排序simulate</span>
+                <!--<div class="i-nav-title">simylate</div>-->
+            </div>
+
+            <ul class="nav navbar-nav navbar-right i-nav-ul-title">
+                <li class="time-div">
+                    <div > <span class="glyphicon glyphicon-calendar"></span> 2018年3月12日 &nbsp;&nbsp; <span class="glyphicon glyphicon-time"></span> 16:05pm</div>
+                </li>
+                <li class="i-nav-ul-bell">
+                    <span class="glyphicon glyphicon-bell"></span>
+                </li>
+                <li>
+                    <img class=" img-circle user-head-portrait" src="images/yang.jpg"/>
+                </li>
+                <li class="user-identify">
+                    <span>开发</span><span class="caret"></span>
+                    <!--<a href="#identify-menu" id="dLabel" class="identify-toggle" data-toggle="kaifa" aria-haspopup="true" aria-expanded="false">开发<span class="caret"></span></a>-->
+                    <!--<ul id="identify-menu" class="kaifa" aria-label="dLabel">-->
+                    <!--<li>开发</li>-->
+                    <!--<li>用户</li>-->
+                    <!--</ul>-->
+                </li>
+            </ul>
+        </div>
+
+        <!--功能导航栏-->
+        <div class="row i-nav-second-line">
+            <ul class="nav nav-pills navbar-left i-nav-second-line-left" role="tablist">
+                <!--<li role="presentation"><a href="#">过滤</a></li>-->
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        过滤 <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        ...
+                    </ul>
+                </li>
+                <li role="presentation"><a href="#">高级查询</a></li>
+                <li role="presentation"><a href="#">重置 </a></li>
+                <li role="presentation"><a href="#">刷新</a></li>
+                <li role="presentation"><a href="#">计划时间范围</a></li>
+                <li role="presentation"><a href="#">导出</a></li>
+            </ul>
+            <ul class="nav nav-pills navbar-right i-nav-second-line-right" role="tablist">
+                <!--<li role="presentation"><a href="#">过滤</a></li>-->
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        参数配置 <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        ...
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        航班计划 <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        ...
+                    </ul>
+                </li>
+                <li role="presentation"><a href="#">备降场管理</a></li>
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        通告信息 <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        ...
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        跑道配置 <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        ...
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        流控信息 <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        ...
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        流控信息 <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        ...
+                    </ul>
+                </li>
+                <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        限制信息 <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        ...
+                    </ul>
+                </li>
+                <li role="presentation"><a href="#">特殊航班</a></li>
+                <li role="presentation"><a href="#">等待池</a></li>
+                <li role="presentation"><a href="#">告警信息</a></li>
+                <li role="presentation"><a href="#">代办事项</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!--核心区域-->
+
+    <div class="pager_main">
+        <!--背景渐变色-->
+        <div class="row gradient">
+            <!--左表格-->
+            <table class="table table-bordered">
+                ...
+            </table>
+            <!--右表格-->
+            <table class="table table-bordered">
+                ...
+            </table>
+        </div>
+
+
+    </div>
+
+
+
+
+
+<script type="text/javascript" src="plugins/bootstrap/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

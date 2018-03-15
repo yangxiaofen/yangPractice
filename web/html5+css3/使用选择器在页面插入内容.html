@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用选择器在页面插入内容</title>
+    <style>
+        h1:before{
+            content: open-quote;
+        }
+        h1:after{
+            content: close-quote;
+        }
+        h1{
+            quotes: "("")";
+        }
+    </style>
+</head>
+<body>
+<h1>在字符串两边嵌套文字符号</h1>
+<p>编号嵌套、重置编号</p>
+</body>
+</html>

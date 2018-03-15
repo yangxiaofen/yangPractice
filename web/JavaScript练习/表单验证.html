@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证</title>
+</head>
+<body>
+    <h1>表单验证</h1>
+    <form action="doAction.php" method="post" onsubmit="return check(this)">
+        用户名：<input type="text" name="username" id="username"><br>
+        密码：<input type="password" name="password"><br>
+        <input type="submit" value="注册">
+    </form>
+    <script type="text/javascript">
+        function check(){
+            var username = document.getElementById("username").value;
+            if (!/^[a-zA-Z0-9]+$.test(username)){
+                alert("不合法");
+            return false;
+            }
+        }
+    </script>
+</body>
+</html>

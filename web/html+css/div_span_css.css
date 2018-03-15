@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*div{*/
+    /*background-color: green;*/
+    /*color:#fff;*/
+/*}*/
+/*span{*/
+    /*background-color: red;*/
+    /*color:#fff;*/
+/*}*/
+.div{
+    background-color: green;
+    width: 600px;
+    height: 600px;
+    margin:  0 auto;
+}
+.diva{
+    background-color: yellow;
+    width: 240px;
+    height: 240px;
+    float: left;
+}
+.divb{
+    background-color: red;
+    width: 240px;
+    height: 240px;
+    float: left;
+}
+.div div{
+    margin: 10px;
+    padding: 10px;
+    border: solid 10px;
+}
+
+.divc{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    position:relative;
+    left: 10px;
+    top: 10px;
+}
+.divc span{
+    position: absolute;
+    background-color: #ff6600;
+    color:#fff;
+    top:-10px;
+    right:0;
+}
+.divd{
+    position: fixed;
+    background-color: #ff6600;
+    color:#fff;
+    top: 100px;
+    z-index:1;
+    display:none ;
+}
+
+.dive{
+    background-color: yellow;
+    display: inline;
+}
+.spane{
+    background-color: red;
+    display: block;
+}
+.divf{
+    width: 960px;
+    height:600px;
+    margin: 0 auto;
+    background-color:#f1f1f1;
+}
+.left{
+    float: left;
+    width:255px;
+    height:460px;
+    background:#ccc;
+}
+.right{
+    float: right;
+    width:700px;
+    height:460px;
+    background:#ddd;
+    /*margin-bottom: 10px;*/
+}
+.clear{
+    clear:both;
+}
+.bottom{
+    height:200px;
+    width:960px;
+    background: #3c3c3c;
+    /*clear:both;*/
+    margin-top: 10px;
+}
+.jianjie{
+    width: 255px;
+    height:20px;
+    /*overflow: hidden;*/
+    /*word-break: break-all;*/
+    /*word-wrap: break-word;*/
+}
